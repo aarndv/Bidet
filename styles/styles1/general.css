@@ -1,0 +1,8 @@
+body {
+  margin: 0px;
+  background-image: radial-gradient(rgb(0, 255, 0), rgb(230, 230, 93));
+}
+
+.greetings {
+  background: var(--dark-gradient);
+}

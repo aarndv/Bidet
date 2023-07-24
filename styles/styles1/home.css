@@ -1,0 +1,51 @@
+.body {
+  height: 99.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0px 50px 0px;
+  background-color: rgb(215, 228, 207);
+  box-shadow: 0px 0px 25px  rgba(0, 0, 0, 0.5);
+}
+
+.greetings-container {
+  background-image: linear-gradient(45deg, wheat, rgb(244, 231, 207));
+  position: relative;
+  margin-top: 30px;
+  margin-bottom: 5.25rem;
+  margin-left: 60px;
+  margin-right: 60px;
+  cursor: pointer;
+  color: rgb(0, 0, 0);
+  padding-top: 0.625rem;
+  padding-bottom: 0.625rem;
+  border-width: 0.0625rem;
+  border-radius: 0.4rem;
+  border-style: solid;
+  border-color: rgb(235,232,229);
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+  transition: all 0.15s;
+}
+
+.pin {
+  width: 120px;
+  top: -36px;
+  left: -61px;
+  position: absolute;
+}
+
+.greetings {
+  font-family: Indie Flower;
+  font-weight: 500;
+  font-size: 2rem;
+  text-align: center;
+  margin: 0px 20px;
+  line-height: 80px;
+  width: 700px;
+}
+
+.box-title-container {
+  font-family: Satisfy;
+  font-size: 50px;
+}
