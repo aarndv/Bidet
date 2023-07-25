@@ -4,8 +4,47 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Noir</title>
+  <link rel="stylesheet" href="styles/mainmenu.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bacasime+Antique&family=Caveat&family=Dancing+Script:wght@400;500;600;700&family=Indie+Flower&family=Kaushan+Script&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nanum+Myeongjo:wght@400;700;800&family=Permanent+Marker&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Satisfy&display=swap" rel="stylesheet">
 </head>
 <body>
-  
+
+  <div class="title-block">
+    <div class="title-container">
+      <h1 class="title">Noir</h1>
+    </div>
+  </div>
+  <div class="options-block">
+    <div class="options-container">
+      <div class="option"><a>Read me</div>
+      <div class="option"><a>Start</a></div>
+      <div class="option"><a href="../../homepage.html">Back to the box</a></div>
+      <div class="option"><a href="#settings" id="home">Settings</a></div>
+    </div>
+  </div>
+  <div class="settings-page">
+    <audio autoplay loop id="bg-audio">
+      <source src="../../audio/Kirwani - Teental - Aditya Verma, Subir Dev.mp3" type="audio/mpeg">
+    </audio>
+    <a id="settings" href="#" class="back-button">Back</a>
+    <div class="settings-contents">
+      <div class="settings-block">
+        <p class="js-volume-display volume-display">Volume: 0.2</p>
+        <p><button class="js-button-settings button-settings" onclick="
+          increaseVolume(); 
+        ">+</button></p>
+        <p><button class="js-button-settings button-settings" onclick="
+          lowerVolume();
+        ">-</button></p>
+        <p><button class="js-button-settings button-settings mute-button" onclick="
+          mute();
+        ">mute</button></p>
+      </div>
+    </div>
+    
+  </div>
+  <script src="scripts/mainmenu.js"></script>
 </body>
 </html>

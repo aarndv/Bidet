@@ -35,7 +35,7 @@
   justify-content: space-between;
   height: 13.25rem;
   width: 41.5rem;
-  background-color: rgb(81, 81, 56);
+  background-color: rgb(181, 181, 156);
 }
 
 .chocolates-container {
@@ -44,7 +44,6 @@
 }
 
 .flower-container {
-  background-color: lightpink;
   width: 24.25rem;
 }
 
@@ -75,7 +74,6 @@
 }
 
 .poetry-container {
-  background-color: lightblue;
   width: 14rem;
 }
 
@@ -86,7 +84,6 @@
 
 .game-container {
   width: 20rem;
-  background-color: lightblue;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -106,4 +103,36 @@
   width: 13rem;
 }
 
+.flower-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rose-img {
+  width: 20rem;
+  transition: all 200ms;
+}
+
+.rose-img:hover {
+  opacity: 0.8;
+  width: 21rem;
+}
+
+.poetry-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.quill-img {
+  width: 15rem;
+  transition: all 200ms;
+  cursor: pointer;
+}
+
+.quill-img:hover {
+  opacity: 0.8;
+  width: 16rem;
+}
 
